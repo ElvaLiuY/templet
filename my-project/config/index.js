@@ -11,8 +11,9 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api/**': {
-       // target: ' https://www.easy-mock.com/mock/5b41c4dd1204b4765d9f7002', // 你接口的域名
-        target: 'http://yapi.demo.qunar.com/mock/14329',
+      target: ' https://www.easy-mock.com/mock/5b41c4dd1204b4765d9f7002', // 你接口的域名
+      //  target: ' https://www.easy-mock.com/mock/5b4e9cc473960562e6fd7f19/api',
+        // target: 'http://yapi.demo.qunar.com/mock/14329',
         secure: false,
         changeOrigin: false,
       }
