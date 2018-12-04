@@ -1,3 +1,91 @@
 // 变量只适用于移动端,屏幕尺寸的十分之一为root fontsize
 @html-font-size: calc(100vw/10);
 @rem: 10/750rem;
+
+
+// flex布局
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-outer {
+  position: relative;
+}
+
+.flex-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-col-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-col-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-align {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center-align-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-row-round {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-double-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column-space {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  flex-shrink: 1;
+}
+
+.item-end {
+  align-self: flex-end;
+}
